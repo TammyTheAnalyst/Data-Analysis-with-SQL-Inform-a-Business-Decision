@@ -20,7 +20,7 @@ How can we identify those employees? Proposed Solution: A list of employees who 
    - Explored tables in the database
 
 ### 2. Determine which tables and fields will be needed
-   - [Employees Table](https://github.com/TammyTheAnalyst/Data-Analysis-with-SQL-Inform-a-Business-Decision/blob/main/Screenshot%20(4397).png)
+   - [](https://github.com/TammyTheAnalyst/Data-Analysis-with-SQL-Inform-a-Business-Decision/blob/main/Screenshot%20(4397).png)
    - [Orders Table](https://github.com/TammyTheAnalyst/Data-Analysis-with-SQL-Inform-a-Business-Decision/blob/main/Screenshot%20(4398).png)
    - [Order Details Table](https://github.com/TammyTheAnalyst/Data-Analysis-with-SQL-Inform-a-Business-Decision/blob/main/Screenshot%20(4399).png)
    - [Products Table](https://github.com/TammyTheAnalyst/Data-Analysis-with-SQL-Inform-a-Business-Decision/blob/main/Screenshot%20(4400).png)
