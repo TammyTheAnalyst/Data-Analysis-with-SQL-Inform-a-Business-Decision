@@ -20,25 +20,25 @@ How can we identify those employees? Proposed Solution: A list of employees who 
    - Explored tables in the database
 
 ### 2. Determine which tables and fields will be needed
-   -![Employees Table](https://github.com/TammyTheAnalyst/Data-Analysis-with-SQL-Inform-a-Business-Decision/blob/main/Screenshot%20(4397).png)
-   -![Orders Table](https://github.com/TammyTheAnalyst/Data-Analysis-with-SQL-Inform-a-Business-Decision/blob/main/Screenshot%20(4398).png)
-   -![Order Details Table](https://github.com/TammyTheAnalyst/Data-Analysis-with-SQL-Inform-a-Business-Decision/blob/main/Screenshot%20(4399).png)
-   -![Products Table](https://github.com/TammyTheAnalyst/Data-Analysis-with-SQL-Inform-a-Business-Decision/blob/main/Screenshot%20(4400).png)
-   -![Database Tables required](https://github.com/TammyTheAnalyst/Data-Analysis-with-SQL-Inform-a-Business-Decision/blob/main/Screenshot%20(4401).png)
+   ![Employees Table](https://github.com/TammyTheAnalyst/Data-Analysis-with-SQL-Inform-a-Business-Decision/blob/main/Screenshot%20(4397).png)
+   ![Orders Table](https://github.com/TammyTheAnalyst/Data-Analysis-with-SQL-Inform-a-Business-Decision/blob/main/Screenshot%20(4398).png)
+   ![Order Details Table](https://github.com/TammyTheAnalyst/Data-Analysis-with-SQL-Inform-a-Business-Decision/blob/main/Screenshot%20(4399).png)
+   ![Products Table](https://github.com/TammyTheAnalyst/Data-Analysis-with-SQL-Inform-a-Business-Decision/blob/main/Screenshot%20(4400).png)
+   ![Database Tables required](https://github.com/TammyTheAnalyst/Data-Analysis-with-SQL-Inform-a-Business-Decision/blob/main/Screenshot%20(4401).png)
 
 ### 3. **Joining Tables Together in SQL to Obtain Data for Analysis**
    - To retrieve the necessary data, I joined multiple tables in SQL, including the `Employees`, `Orders`, `OrderDetails`, and `Products` tables and used ORDER BY
-   - ![INNER JOIN and ORDER BY all tablesneeded](https://github.com/TammyTheAnalyst/Data-Analysis-with-SQL-Inform-a-Business-Decision/blob/main/Screenshot%20(4405).png)
+   ![INNER JOIN and ORDER BY all tablesneeded](https://github.com/TammyTheAnalyst/Data-Analysis-with-SQL-Inform-a-Business-Decision/blob/main/Screenshot%20(4405).png)
 
 ### 4. **Calculate and Summarize Sales for Each Order**
    - In this query, I calculated the total sales amount for each order by joining the Employees, Orders, OrderDetails, and Products tables
      and used GROUP BY to group the results by employee name and order ID.
-   - ![Calculate and Summarize Sales for each order](https://github.com/TammyTheAnalyst/Data-Analysis-with-SQL-Inform-a-Business-Decision/blob/main/Screenshot%20(4406).png)
+     ![Calculate and Summarize Sales for each order](https://github.com/TammyTheAnalyst/Data-Analysis-with-SQL-Inform-a-Business-Decision/blob/main/Screenshot%20(4406).png)
   
 
 ### 5. **Displaying the Top Results**
    - To focus on the top sales performers, I used the `SELECT TOP 5` query to retrieve the top 5 employees with the highest sales.
-   -![Displaying TOP 5 Results](https://github.com/TammyTheAnalyst/Data-Analysis-with-SQL-Inform-a-Business-Decision/blob/main/Screenshot%20(4409).png)
+   ![Displaying TOP 5 Results](https://github.com/TammyTheAnalyst/Data-Analysis-with-SQL-Inform-a-Business-Decision/blob/main/Screenshot%20(4409).png)
 
 
 ## Conclusion
